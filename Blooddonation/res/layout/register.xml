@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/scrollView1" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+ />
+<TextView android:text="UserName" android:id="@+id/lbl_uname" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_uname"></EditText>
+<TextView android:text="Password" android:id="@+id/lbl_pass" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_pass" android:password="true"></EditText>
+<TextView android:text="DOB" android:id="@+id/lbl_dob" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_dob"></EditText>
+<TextView android:text="Age" android:id="@+id/lbl_age" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_age"></EditText>
+<TextView android:text="Sex" android:id="@+id/lbl_sex" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_sex" android:password="false"></EditText>
+<TextView android:text="Blood Group" android:id="@+id/lbl_blooedgroup" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_bloodgroup"></EditText>
+
+<TextView android:text="Mobile No" android:id="@+id/lbl_mno" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_mno"></EditText>
+
+<TextView android:text="Date of last Blood Donation" android:id="@+id/lbl_last_date" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_last_date"></EditText>
+
+<TextView android:text="Location" android:id="@+id/lbl_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="invisible"></TextView>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/txt_location"></EditText>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/submit" android:text="Submit"></Button>
+</LinearLayout>
+
+</ScrollView>

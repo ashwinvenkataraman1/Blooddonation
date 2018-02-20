@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<TextView android:text="" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Enter Server IP Address" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txt_server_ip" android:text=""></EditText>
+
+
+
+<Button android:text="Fresh User" android:id="@+id/bt_admin" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+<TextView android:text="" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+<Button android:text="User" android:id="@+id/bt_user" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+<TextView android:text="" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+<Button android:text="Close" android:id="@+id/bt_close" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+</LinearLayout>
